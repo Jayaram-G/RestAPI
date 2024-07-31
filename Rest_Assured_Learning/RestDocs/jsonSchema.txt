@@ -1,0 +1,33 @@
+json 
+{
+  "first_name":"Jayaram",
+  "last_name":"G",
+  "email":"jairam@gmail.com",
+  "id":77
+}
+
+json schema 
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "first_name",
+    "last_name",
+    "email",
+    "id"
+  ]
+}
